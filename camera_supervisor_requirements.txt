@@ -1,0 +1,9 @@
+opencv-python
+onvif-zeep
+numpy
+PyYAML
+python-ffmpeg
+ultralytics
+boto3
+paho-mqtt
+sib-api-v3-sdk
