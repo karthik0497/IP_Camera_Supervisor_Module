@@ -3,6 +3,4 @@ __pycache__/
 *.pyc
 .idea/
 .vscode/
-data/
-videos/
-*.pt
+

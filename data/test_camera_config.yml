@@ -1,0 +1,49 @@
+camera_group: "test"
+
+camera_details:
+  test_Shuttle_1:
+    camera_device_id: "test_Shuttle_1"
+    camera_mac: "9c:53:22:a8:fb:8d"
+    camera_ip: "" # Update with actual IP
+    camera_username: "" # From your previous test file
+    camera_password: "ABCDEFGH"
+    camera_port: 554
+    onvif_port: 2020
+    stream_path: "stream1"
+    profiles:
+      1: {x: 0.8, y: 0.4}
+      2: {x: 1, y: 0.5}
+      3: {x: 0.5, y: 0.5}
+      4: {x: 0.8, y: 1}
+
+  test_Aisle_End:
+    camera_device_id: "test_Aisle_End"
+    camera_mac: "f0:a7:31:93:27:e1"
+    camera_ip: "" # Update with actual IP
+    camera_username: "admin"
+    camera_password: "ABCDEFGH"
+    camera_port: 554
+    onvif_port: 2020
+    stream_path: "stream1"
+    profiles:
+      1: {x: 0.1, y: 0}
+      2: {x: 0, y: 0.2}
+      3: {x: -0.3, y: 0.4}
+      4: {x: -0.7, y: 0.6}
+
+  test_Aisle_Start:
+    camera_device_id: "test_Aisle_Start"
+    camera_mac: "f0:a7:31:93:27:dc"
+    camera_ip: "" # Update with actual IP
+    camera_username: "admin"
+    camera_password: "ABCDEFGH"
+    camera_port: 554
+    onvif_port: 2020
+    stream_path: "stream1"
+    profiles:
+      1: {x: 0.1, y: 0}
+      2: {x: 0, y: 0.2}
+      3: {x: -0.3, y: 0.4}
+      4: {x: -0.7, y: 0.6}
+
+
